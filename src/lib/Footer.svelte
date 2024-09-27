@@ -8,21 +8,21 @@
 
 <div>
     <img src={pic} alt={picname}>
-    <p>&copy; Web 1 {year}: the time is currently: {currentTime}</p>
+    
 </div>
 
-
+<p>This website is made in &copy; Web 1 {year}: The time is: {currentTime}</p>
 
 <style>
     div {
         display: flex;
         flex-direction:column;
+        max-width: 800px;
     }
     p {
         background-color: salmon;
-        padding: 2em;
         font-weight: bold;
-        font-size:x-small;
-        border: 10px dotted bisque;
+        font-size:small;
+        /* border: 10px dotted bisque; */
     }
 </style>

@@ -16,4 +16,9 @@
         padding-right: 1.5em;
         font-weight: bold;
     }
+    nav {
+        background-color: salmon;
+        padding: 0.5em;
+        
+    }
 </style>

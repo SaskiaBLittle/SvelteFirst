@@ -19,6 +19,6 @@
     nav {
         background-color: salmon;
         padding: 0.5em;
-        
+        border: 2px solid rgb(182, 81, 44);
     }
 </style>

@@ -6,19 +6,27 @@
     <h1>{headingTitle}</h1>
     <nav>
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
     </nav>
 </header>
 
 <style>
     nav a {
-        padding-right: 1.5em;
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 3px 10px;
+        text-decoration: none;
         font-weight: bold;
+    }
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
     }
     nav {
         background-color: salmon;
-        padding: 0.5em;
+        padding: 2em;
         border: 2px solid rgb(182, 81, 44);
     }
 </style>

@@ -4,7 +4,7 @@
     import catpic from '$lib/cat.jpg';
 </script>
 
-<Header />
+<Header headingTitle="Home Page" />
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <Footer year={2022} pic={catpic} picname={"cat"} />

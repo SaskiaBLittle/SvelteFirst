@@ -10,10 +10,11 @@
 
 <style>
     p {
-        background-color: salmon;
+        background-color: rgb(219, 69, 52);
         font-weight: bold;
         font-size:small;
         /* border: 10px dotted bisque; */
+        color: #ddd;
     }
 
 </style>

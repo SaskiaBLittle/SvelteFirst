@@ -5,8 +5,11 @@
 <header>
     <nav>
         <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <a href="/">Characters^</a>
+        <a href="/">Seasons and Movie^</a>
+        <a href="/">Quiz</a>
+        <a class="side" href="/about">About</a>
+        <a class="side" href="/contact">Contact</a>
     </nav>
     <h1>{headingTitle}</h1>
 </header>
@@ -25,8 +28,11 @@
         color: black;
     }
     nav {
-        background-color: salmon;
+        background-color: rgb(219, 69, 52);
         padding: 2em;
-        border: 2px solid rgb(182, 81, 44);
+        border: 2px solid rgb(134, 57, 29);
+    }
+    .side {
+
     }
 </style>

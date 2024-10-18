@@ -3,12 +3,12 @@
 </script>
 
 <header>
-    <h1>{headingTitle}</h1>
     <nav>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
     </nav>
+    <h1>{headingTitle}</h1>
 </header>
 
 <style>

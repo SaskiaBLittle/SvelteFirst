@@ -1,5 +1,6 @@
 <script>
     import Header from '$lib/Header.svelte';
+    import Card from '$lib/Card.svelte';
     import Footer from '$lib/Footer.svelte';
     import Image from '$lib/Image.svelte';
     import homepic from '$lib/demonslayer.jpg';
@@ -11,10 +12,10 @@
     <Image pic={homepic} picname={"cover"} />
 </div>
 
+<Card where="/about" title="Tanjiro Kamado" age=15 info="A Demon Slayer" />
 
 <Footer year={2022} />
-<!-- <Footer year={2023}/>
-<Footer year={1980}/> -->
+
 
 <style>
     :global(*) {
